@@ -91,8 +91,7 @@ def play_track(url):
         "--demuxer-readahead-secs=30",
         "--audio-buffer=2",
         "--audio-stream-silence=yes",
-        "--keep-open=yes",
-        "--quiet",
+        "--msg-level=all=warn",
         "--no-terminal",
     ]
 
