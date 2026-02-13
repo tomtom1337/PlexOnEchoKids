@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Config / secrets
+config.ini
+
+# System files
+*.swp
+*.DS_Store
